@@ -43,3 +43,11 @@ body {
     color: #A71E1E;
     font-weight: bold;
 }
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+    #brand-logo {
+        display: none;
+    }
+}
