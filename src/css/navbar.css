@@ -47,7 +47,11 @@ body {
 /* Media Queries */
 
 @media (max-width: 600px) {
-    #brand-logo {
+    .nav-items {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .nav-items:first-child {
         display: none;
     }
 }
